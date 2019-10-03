@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b656b989e86d0062f0dfb77fa14495e",
+    "revision": "7094e5537a8fc5ea7c1e095d84fdd4ea",
     "url": "/popol/index.html"
   },
   {
-    "revision": "37529e026017f2fb7adb",
+    "revision": "c8b37920a7cfe0d49271",
     "url": "/popol/static/css/main.109f4ade.chunk.css"
   },
   {
-    "revision": "daf84c1f7f15122b83e9",
-    "url": "/popol/static/js/2.faa1ec5d.chunk.js"
+    "revision": "b984e6b0e02fa6b13f5e",
+    "url": "/popol/static/js/2.c776b5ee.chunk.js"
   },
   {
-    "revision": "37529e026017f2fb7adb",
-    "url": "/popol/static/js/main.24406019.chunk.js"
+    "revision": "c8b37920a7cfe0d49271",
+    "url": "/popol/static/js/main.f79cc7da.chunk.js"
   },
   {
     "revision": "6f4506cdc28044ce7c25",
