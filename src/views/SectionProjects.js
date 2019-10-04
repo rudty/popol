@@ -1,22 +1,23 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
 // core components
 
-const SectionProjects = () => {
+function SectionProjects() {
   return (
     <>
-      <div className="section section-dark" id="_project">
-        <Container>
-          <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Projects</h2>
-                <p className="description">
-                  개인 프로젝트
-                </p>
-          </Col>
-          <Row className="example-page">
+      <div className="section section-examples" data-background-color="black" id="_project">
+        <div className="ml-auto mr-auto text-center" md="8">
+          <h2 className="title">Projects</h2>
+          <p className="description">
+            개인 프로젝트
+          </p>
+        </div>
+        <div className="space-50"></div>
+        <Container className="text-center">
+          <Row>
             <Col className="text-center" md="6">
               <a href="https://github.com/rudty/nodekell" target="_blank" rel="noopener noreferrer">
                 <img
@@ -87,9 +88,32 @@ const SectionProjects = () => {
                 Kotlin - Spring을 활용한 간단 API 서버
               </p>
             </Col>
-          </Row> 
+            <Col className="text-center" md="6">
+              <a href="https://github.com/rudty/go-parallel" target="_blank" rel="noopener noreferrer">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/goparallel.png")}
+                  style={{ width: "100%" }}
+                />
+              </a>
+              <Button
+                className="btn-outline-neutral btn-round"
+                color="default"
+                href="https://github.com/rudty/go-parallel"
+                target="_blank"
+              >
+                Landing Page
+              </Button>
+              <p className="description">
+                개발기간: 2018-06 ~ 2018-09<br />
+                go 언어 병렬 처리 라이브러리
+              </p>
+            </Col>
+          </Row>
+          
         </Container>
-      </div>{" "}
+      </div>
     </>
   );
 }

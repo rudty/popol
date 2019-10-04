@@ -1,34 +1,69 @@
 import React from "react";
 
 // reactstrap components
+// import {
+// } from "reactstrap";
 
-// core components ExamplesNavbar
+// core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import Footer from "components/Footers/Footer.js";
-import SectionSkills from "views/SectionSkills";
-import SectionProjects from "views/SectionProjects";
-import SectionIAM from "views/SectionIAM";
-import SectionContact from "views/SectionContact";
+import Footer from "components/Footers/Footer.js"
+// sections for this page
+// import BasicElements from "./index-sections/BasicElements.js";
+// import Navbars from "./index-sections/Navbars.js";
+// import Tabs from "./index-sections/Tabs.js";
+// import Pagination from "./index-sections/Pagination.js";
+// import Notifications from "./index-sections/Notifications.js";
+// import Typography from "./index-sections/Typography.js";
+// import Javascript from "./index-sections/Javascript.js";
+// import Carousel from "./index-sections/Carousel.js";
+// import NucleoIcons from "./index-sections/NucleoIcons.js";
+// import CompleteExamples from "./index-sections/CompleteExamples.js";
+// import SignUp from "./index-sections/SignUp.js";
+// import Examples from "./index-sections/Examples.js";
+// import Download from "./index-sections/Download.js";
+import SectionIAM from "./SectionIAM.js";
+import SectionProjects from "./SectionProjects.js";
+import SectionActivity from "./SectionActivity.js";
+import SectionSkills from "./SectionSkills.js";
 
 function Index() {
-  document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
-    document.body.classList.add("index");
+    document.body.classList.add("index-page");
+    document.body.classList.add("sidebar-collapse");
+    document.documentElement.classList.remove("nav-open");
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
     return function cleanup() {
-      document.body.classList.remove("index");
+      document.body.classList.remove("index-page");
+      document.body.classList.remove("sidebar-collapse");
     };
   });
   return (
     <>
       <IndexNavbar />
-      <IndexHeader />
-      <div className="main">
-        <SectionSkills />
-        <SectionProjects />
-        <SectionIAM />
-        <SectionContact />
-        <Footer />
+      <div className="wrapper">
+        <IndexHeader />
+        <div className="main">
+          <SectionIAM />
+          <SectionProjects />
+          <SectionActivity />
+          <SectionSkills />
+          {/* <BasicElements />
+          <Navbars />
+          <Tabs />
+          <Pagination />
+          <Notifications />
+          <Typography />
+          <Javascript />
+          <Carousel />
+          <NucleoIcons />
+          <CompleteExamples />
+          <SignUp />
+          <Examples />
+          <Download /> */}
+        </div>
+        <Footer/>
       </div>
     </>
   );

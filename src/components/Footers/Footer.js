@@ -2,19 +2,16 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Container } from "reactstrap";
+import { Container } from "reactstrap";
 
 function Footer() {
   return (
-    <footer className="footer footer-black footer-white">
+    <footer className="footer">
       <Container>
-        <Row>
-          <div className="credits ml-auto">
-            <span className="copyright">
-              2019.10. rudtyz
-            </span>
-          </div>
-        </Row>
+        rudtyz 2019. 10
+        <div className="copyright" id="copyright">
+          rudtyz@gmail.com
+        </div>
       </Container>
     </footer>
   );

@@ -1,15 +1,14 @@
-/*!
+/*
 
 =========================================================
-* Paper Kit React - v1.0.0
+* Now UI Kit React - v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
+* Product Page: https://www.creative-tim.com/product/now-ui-kit-react
+* Copyright 2019 Creative Tim (http://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit-react/blob/master/LICENSE.md)
 
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
+* Designed by www.invisionapp.com Coded by www.creative-tim.com
 
 =========================================================
 
@@ -18,22 +17,17 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
-// styles
+// styles for this kit
 import "assets/css/bootstrap.min.css";
-import "assets/scss/paper-kit.scss";
+import "assets/scss/now-ui-kit.scss";
 import "assets/demo/demo.css";
-// pages
+import "assets/demo/nucleo-icons-page-styles.css";
+// pages for this kit
 import Index from "views/Index.js";
 
 ReactDOM.render(
-  // <BrowserRouter>
-  //   <Switch>
-  //     <Route path="/index" render={props => <Index {...props} />} />
-  //     <Redirect to="/index" />
-  //   </Switch>
-  // </BrowserRouter>,
   <BrowserRouter>
   <Route render={props => <Index {...props} />} />
   </BrowserRouter>,
