@@ -41,7 +41,7 @@ function IndexHeader() {
             ></img> */}
             <h1 className="h1-seo">석경우</h1>
             <h5>Backend developer</h5>
-            <h5>넥슨 코리아 2017.02 - 현재</h5>
+            <h5>넥슨 코리아 재직중 2017.02 ~</h5>
             <h5>---</h5>
             <h5>C++ 게임 서버 개발 경험</h5>
             <h5>nodejs 웹 서버 개발 경험</h5>
