@@ -17,6 +17,35 @@ function SectionProjects() {
               <Row>
                 <Col className="text-left" md="8">
                   <div className="typography-line">
+                    <span>2020.01 - 2020.xx</span>
+                    <p className="blockquote blockquote-primary">
+                      <b>인게임/아웃게임 신규 기능</b><br />
+                      <br />
+                      개발중<br />
+                      C++ 게임 서버, nodejs 웹서버 사용<br />
+                    </p>
+                  </div>
+                  <div className="typography-line">
+                    <span>2020.04 - 2020.04</span>
+                    <p className="blockquote blockquote-primary">
+                      <b>아웃게임 유저 추천 기능 개선</b><br />
+                      <br />
+                      유저가 기능 추가한 내용들을 로깅 하여 그를 바탕으로<br />
+                      유저에게 보여지는 추천 내용 개선<br />
+                      node js 웹 서버 사용<br />
+                    </p>
+                  </div>
+                  <div className="typography-line">
+                    <span>2019.10 - 2019.12</span>
+                    <p className="blockquote blockquote-primary">
+                      <b>아웃게임 서버 번역 기능</b><br />
+                      <br />
+                      국가별 플레이 기능을 공유하기 위한 번역 기능 추가<br />
+                      저장 데이터는 인게임, 아웃게임, 웹서버 모두 관리 가능<br />
+                      C++ 게임 서버, golang 추가 기능 및 node js 웹 서버 사용<br />
+                    </p>
+                  </div>
+                  <div className="typography-line">
                     <span>2019.08 - 2019.9</span>
                     <p className="blockquote blockquote-primary">
                       <b>인게임 콘텐츠 저장 기능 구현</b><br />
