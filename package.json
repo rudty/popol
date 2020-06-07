@@ -24,7 +24,7 @@
     "compile-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
     "minify-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css --source-map true",
-    "deploy": "gh-pages -d build --repo https://github.com/rudty/popol.git"
+    "deploy": "npm run build && gh-pages -d build --repo https://github.com/rudty/popol.git"
   },
   "homepage": "https://rudty.github.io/popol/",
   "eslintConfig": {
