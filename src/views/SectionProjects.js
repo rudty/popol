@@ -16,13 +16,22 @@ function SectionProjects() {
             <Container className="text-center">
               <Row>
                 <Col className="text-left" md="8">
+                <div className="typography-line">
+                    <span>2021.01 - </span>
+                    <p className="blockquote blockquote-primary">
+                      <b>신규 프로젝트</b><br />
+                      비공개<br />
+                    </p>
+                  </div>
                   <div className="typography-line">
-                    <span>2020.01 - 2020.xx</span>
+                    <span>2020.01 - 2020.10</span>
                     <p className="blockquote blockquote-primary">
                       <b>인게임/아웃게임 신규 기능</b><br />
                       <br />
-                      개발중<br />
-                      C++ 게임 서버, nodejs 웹서버 사용<br />
+                      MORPG 기능 추가
+                      <br />
+                      직접 제작한 던전에서 플레이할 수 있는 게임 서버 개발
+                      인게임 C++ 아웃게임 nodejs 사용<br />
                     </p>
                   </div>
                   <div className="typography-line">
@@ -30,9 +39,9 @@ function SectionProjects() {
                     <p className="blockquote blockquote-primary">
                       <b>아웃게임 유저 추천 기능 개선</b><br />
                       <br />
-                      유저가 기능 추가한 내용들을 로깅 하여 그를 바탕으로<br />
-                      유저에게 보여지는 추천 내용 개선<br />
-                      node js 웹 서버 사용<br />
+                      - 제작 맵에 태그 기능 추가 
+                      - 맵의 플레이 기록을 로깅하여 추천 랭킹 영역 개선<br />
+                      아웃게임 nodejs 사용<br />
                     </p>
                   </div>
                   <div className="typography-line">
@@ -41,18 +50,17 @@ function SectionProjects() {
                       <b>아웃게임 서버 번역 기능</b><br />
                       <br />
                       국가별 플레이 기능을 공유하기 위한 번역 기능 추가<br />
-                      저장 데이터는 인게임, 아웃게임, 웹서버 모두 관리 가능<br />
-                      C++ 게임 서버, golang 추가 기능 및 node js 웹 서버 사용<br />
+                      인게임 C++ 아웃게임 nodejs 사용<br />
                     </p>
                   </div>
                   <div className="typography-line">
-                    <span>2019.08 - 2019.9</span>
+                    <span>2019.08 - 2019.09</span>
                     <p className="blockquote blockquote-primary">
                       <b>인게임 콘텐츠 저장 기능 구현</b><br />
                       <br />
-                      인게임에서 유저가 플레이 한 내역을 저장 및 관리할수 있게 하는 기능을 구현 <br />
-                      저장 데이터는 유저가 직접 선택 가능<br />
-                      C++ 게임 서버 및 node js 웹 서버 사용<br />
+                      인게임에서 유저가 플레이 데이터를 저장 및 관리 기능 구현<br />
+                      게임 기본 저장 데이터 + 만약 유저 제작 시 관리 데이터 직접 선택 가능<br />
+                      인게임 C++ 아웃게임 nodejs 사용<br />
                     </p>
                   </div>
                   <div className="typography-line">
@@ -61,8 +69,8 @@ function SectionProjects() {
                       <b>아웃 게임 유저 콘텐츠 로비 개편</b><br />
                       <br />
                       아웃 게임에서 유저들이 만든 맵들의 정렬방식 및 기능 개편<br />
-                      검색 관련 서버 SQL 쿼리 리뉴얼 및 back-end 리뉴얼 <br />
-                      인게임과 연관된 부분은 C++ 게임 서버, 관련없는 부분은 node js 웹 서버 사용<br />
+                      검색 관련 서버 SQL 쿼리 리뉴얼 및 nodejs api 서버 뉴얼 <br />
+                      인게임 C++ 아웃게임 nodejs 사용<br />
                     </p>
                   </div>
                   <div className="typography-line">
@@ -70,9 +78,9 @@ function SectionProjects() {
                     <p className="blockquote blockquote-primary">
                       <b>아웃 게임 웹 콘텐츠 개발</b><br />
                       <br />
-                      인게임에서 유저들이 만든 콘텐츠들을 웹에서 볼 수 있게하는 back-end 서버 개발<br />
-                      선택 시 해당 콘텐츠에 즉시 입장가능하게 구현<br />
-                      인게임과 연관된 부분은 C++ 게임 서버, 관련없는 부분은 node js 웹 서버 사용<br />
+                      인게임에서 유저들이 만든 콘텐츠들을 웹에서 볼 수 있게하는 api 서버 개발<br />
+                      선택 시 게임 클라이언트와 연동하여 해당 콘텐츠에 즉시 입장가능하게 구현<br />
+                      인게임 C++ 아웃게임 nodejs 사용<br />
                     </p>
                   </div>
                 </Col>
